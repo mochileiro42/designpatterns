@@ -34,22 +34,6 @@
                     <target>21</target>
                 </configuration>
             </plugin>
-            <!-- Configuração do plugin do site -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-site-plugin</artifactId>
-                <version>3.9.1</version>
-                <configuration>
-                    <reportPlugins>
-                        <!-- Configuração do plugin de relatório de dependências -->
-                        <plugin>
-                            <groupId>org.apache.maven.plugins</groupId>
-                            <artifactId>maven-project-info-reports-plugin</artifactId>
-                            <version>3.1.2</version>
-                        </plugin>
-                    </reportPlugins>
-                </configuration>
-            </plugin>
         </plugins>
     </build>
 </project>
